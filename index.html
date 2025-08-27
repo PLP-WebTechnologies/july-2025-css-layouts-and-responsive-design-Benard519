@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">DesignMaster</h1>
+            <p class="tagline">Showcasing Modern Web Design</p>
+        </div>
+    </header>
+
+    <!-- Navigation Bar with CSS-only mobile menu -->
+    <nav class="navigation">
+        <div class="container">
+            <!-- Hidden checkbox for mobile menu toggle -->
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-toggle">
+            <label for="mobile-menu-toggle" class="mobile-menu-btn">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </label>
+            
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Layout Container using CSS Grid -->
+    <div id="home" class="main-layout container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <section class="hero">
+                <h2>Welcome to Modern Web Design</h2>
+                <p>Experience the power of responsive design with Flexbox and CSS Grid working together to create beautiful, functional layouts using only HTML5 and CSS3.</p>
+            </section>
+
+            <!-- Feature Cards using Flexbox -->
+            <section id="about" class="features">
+                <h3>Our Features</h3>
+                <div class="cards-container">
+                    <article class="card">
+                        <div class="card-icon">📱</div>
+                        <h4>Responsive Design</h4>
+                        <p>Perfectly adapts to any screen size, from mobile phones to large desktop displays using CSS Grid and Flexbox.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">⚡</div>
+                        <h4>Fast Performance</h4>
+                        <p>Optimized for speed with clean, efficient CSS3 and semantic HTML5 structure. No JavaScript required.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">🎨</div>
+                        <h4>Modern Aesthetics</h4>
+                        <p>Contemporary design principles with attention to typography, visual hierarchy, and CSS3 animations.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">🔧</div>
+                        <h4>Pure CSS Layout</h4>
+                        <p>Built exclusively with Flexbox and CSS Grid for maximum layout flexibility and browser compatibility.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Content Section -->
+            <section id="services" class="content">
+                <h3>Our Development Approach</h3>
+                <p>We believe in creating web experiences that are both beautiful and functional using modern web standards. Our approach combines CSS3 techniques with responsive design principles to ensure your content looks great on every device.</p>
+                
+                <div class="content-grid">
+                    <div class="content-item">
+                        <h4>Mobile-First Design</h4>
+                        <p>Starting with mobile ensures optimal performance and user experience across all devices using CSS media queries.</p>
+                    </div>
+                    <div class="content-item">
+                        <h4>Semantic HTML5</h4>
+                        <p>Clean, accessible markup that search engines love and screen readers can navigate easily with proper structure.</p>
+                    </div>
+                    <div class="content-item">
+                        <h4>CSS3 Animations</h4>
+                        <p>Smooth transitions and hover effects created entirely with CSS3 for enhanced user interaction.</p>
+                    </div>
+                    <div class="content-item">
+                        <h4>Cross-Browser Support</h4>
+                        <p>Tested across all major browsers to ensure consistent performance using standard CSS properties.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="portfolio">
+                <h3>Our Portfolio</h3>
+                <p>Showcasing recent responsive web design projects built with HTML5 and CSS3.</p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <h4>E-Commerce Platform</h4>
+                        <p>Fully responsive online store with CSS Grid layout and Flexbox components.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <h4>Corporate Website</h4>
+                        <p>Professional business site with CSS3 animations and mobile-first design.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"></div>
+                        <h4>Mobile App Landing</h4>
+                        <p>Conversion-optimized landing page using pure CSS responsive techniques.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Section -->
+            <section id="contact" class="contact">
+                <h3>Get In Touch</h3>
+                <p>Ready to start your next project? Let's discuss how we can help bring your vision to life using modern web standards.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>📧 Email</h4>
+                        <p>benardmachuka08@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📞 Phone</h4>
+                        <p>+254 111-816-896</p>
+                    </div>
+                    <div class="contact-item">
+                        <h4>📍 Location</h4>
+                        <p>Eldoret, Kenya</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="widget">
+                <h4>Quick Links</h4>
+                <ul class="sidebar-list">
+                    <li><a href="#home">Home Section</a></li>
+                    <li><a href="#about">About Features</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </div>
+            
+            <div class="widget">
+                <h4>Latest News</h4>
+                <article class="news-item">
+                    <h5>CSS Grid Level 2</h5>
+                    <p>New features coming to CSS Grid that will revolutionize web layouts without JavaScript.</p>
+                    <time>January 15, 2025</time>
+                </article>
+                <article class="news-item">
+                    <h5>Responsive Images</h5>
+                    <p>Best practices for serving optimized images across all devices using HTML5 and CSS3.</p>
+                    <time>January 10, 2025</time>
+                </article>
+            </div>
+
+            <div class="widget">
+                <h4>Statistics</h4>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="stat-number">95%</span>
+                        <span class="stat-label">Mobile Traffic</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3.2s</span>
+                        <span class="stat-label">Load Time</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">CSS Only</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer using Flexbox -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DesignMaster</h4>
+                    <p>Creating beautiful, responsive web experiences with HTML5 and CSS3 since 2025.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Technologies</h4>
+                    <ul class="tech-list">
+                        <li>HTML5 Semantic Structure</li>
+                        <li>CSS3 Grid & Flexbox</li>
+                        <li>Responsive Media Queries</li>
+                        <li>CSS3 Animations</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>benardmachuka08@gmail.com<br>
+                  +254 111-816-896<br>
+                    Eldoret, Kenya</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DesignMaster. All rights reserved. | Built with HTML5 & CSS3 Only</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
